@@ -1,0 +1,11 @@
+.htmxFileUploadButton{ background: #0d6efd ; color: #ffffff; padding: 8px 16px; border: none; outline: none; cursor: pointer; }
+.htmxFileUploadModal { display: block; position: fixed; z-index: 1; padding-top: 100px; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgb(0,0,0); background-color: rgba(54, 70, 93, 0.95); }
+.htmxFileUploadModal .content { min-width: 480px; min-height: 320px; padding: 20px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; }
+.close { color: #aaaaaa; float: right; font-size: 28px; font-weight: bold; }
+.close:hover,.close:focus { color: #FF0000; text-decoration: none; cursor: pointer; }
+.htmxFileUploadModal .content .header { padding: 2px 16px; color: white; }
+.htmxFileUploadModal .content .body { padding: 2px 16px; }
+.htmxFileUploadModal .content .footer { padding: 2px 16px; color: white; }
+div.htmxUploadButton{ text-align: left; border: 1px solid #dcdcdc; outline: none; cursor: pointer; background: transparent; border-radius: 0.25rem; padding-left: 0; padding-right: 8rem; padding-block: 8px; }
+.htmxUploadButton span:nth-child(1){ padding: 10px 1rem; border-right: 1px solid #d3d3d3; background: #dddddd; font-weight: 600; }
+.htmxUploadButton span:nth-child(2){ margin-left: 0.5rem; }

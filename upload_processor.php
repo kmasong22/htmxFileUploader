@@ -8,7 +8,7 @@
     $file = HTMXFileUploader::processUpload( $_FILES['file_upload'] ) ;
     $fr = json_decode( $file , true ) ;
     if( $fr['code'] == 200 ) :
-      print_r( "<div class='alert alert-info'><strong>Success!</strong> Uploaded successfully {$fr['doc_id']}</div>" ) ;
+      print_r( "<div class='alert alert-info'><strong>Success!</strong> Uploaded successfully</div>" ) ;
       $fp = "<a target='_blank' href='./upload_processor.php?do=view&id={$fr['doc_id']}'>{$fr['doc_name']}</a>";
       print_r("<script>document.getElementById('htmxUploadLabel_{$_POST['uiid']}').innerHTML=`View File`;document.getElementById('htmxUploadField_{$_POST['uiid']}').innerHTML=`{$fp}`</script>");
     elseif( $fr['code'] == 413 ) :
